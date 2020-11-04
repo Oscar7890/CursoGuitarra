@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>INICIAR SESIÓN </title>
+	<meta charset="utf-8">
+	<style>
+
+		body{
+
+			font-family: Arial; /*Tipo de letra*/
+			padding: 10px; /* separación entre borde y texto*/
+			/*background-image: url("parque.jpg"); color de fondo
+			background-size: 1400px 750px;*/
+
+			/*box-sizing: border-box;/**/
+		}
+
+		form{
+			align-self: right;
+			color: #600;
+			background-color: #91E6DD; 
+			border-radius: 5px; /*para las esquinas */
+			padding: 10px;
+			margin: 20px auto;
+			width: 300px;
+		} 
+		input{
+			/*border: solid 1px #ccc;*/
+		}
+		h3{
+			text-align:center;
+		}
+		
+	</style>
+		
+</head>
+<body>
+<!-- FORMULARIO -->
+<!-- ACTION nos dice a donde se va a mandar la info que el usuario escribe en el formulario-->
+<!-- METHOD indica de que forma se enviará la información de nuestro formulario-->
+<!--NAME se usa para poder acceder a la información guardada, es como el nombre de una variable-->
+
+<!--
+<form action="conexion.php" method="POST" >
+	<h3>Iniciar Sesión</h3>
+	<p>¡Bienvenido a tus cursos de guitarra gratuitos! :)</p>
+	<p>Correo: <input type="email" name="nombre" placeholder="ejemplo@outlook.com"></p>
+	<p>Contraseña: <input type="password" name="password" placeholder="***********" size="15"></p>
+	<button type="submit">
+	  <img src="check.png" width="32" height="32" style="vertical-align: middle">
+	  Enviar
+	</button>
+</form>
+-->
+<form action="conexion.php" method="post" >
+	<h3>Registrar</h3>
+	<p>¡Registrate!, es gratuito :)</p>
+	<p>Nombre de usuario: <input type="text" name="nombre" placeholder="XxusuaruoxX" size="15"></p>
+	<p>Contraseña: <input type="password" name="password" placeholder="***********" size="23"></p>
+	<p>Correo electronico: <input type="email" name="correo" placeholder="ejemplo@outlook.com" size="16"></p>
+	<button type="submit">
+	  <img src="check.png" width="32" height="32" style="vertical-align: middle">
+	  Enviar
+	</button>
+</form>
+</body>
+</html>
